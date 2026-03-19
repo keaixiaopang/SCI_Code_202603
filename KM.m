@@ -99,7 +99,7 @@ while 1
             %         row, and subtract it from every element of each uncovered column.
             %         Return to Step 4 without altering any stars, primes, or covered lines.
             %**************************************************************************
-            % 步骤6：找出没有被覆盖的列减去最小值          
+         
             [minval,rIdx,cIdx]=outerplus(dMat(~coverRow,~coverColumn),minR(~coverRow),minC(~coverColumn));            
             minC(~coverColumn) = minC(~coverColumn) + minval;
             minR(coverRow) = minR(coverRow) - minval;
