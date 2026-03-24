@@ -55,7 +55,7 @@ end
 t7=clock;
 t2=clock;
              
-fprintf('max cost1:%g£¬max cost 2:%g\n',lim1,lim2);
+fprintf('max cost1:%gÂ£Â¬max cost 2:%g\n',lim1,lim2);
 fprintf('calculation time total:%g\n\n',etime(t2,t1));    
 fprintf('calculation time1:%g\n',etime(t4,t3));
 fprintf('calculation time2:%g\n',etime(t5,t4));
